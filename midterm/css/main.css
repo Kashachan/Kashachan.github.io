@@ -9,9 +9,9 @@ body{
 }
 
 header img{
-    margin: -3px;
+    margin: -4px;
     position: relative;
-    left:11.5%;
+    left: 154px;
     
 }
 
@@ -23,43 +23,50 @@ header h1{
     top:195px;
 }
 
+/* put the navigation in a parallel line */
 nav ul{
     display: flex;
-    justify-content: space-around;
     padding:5px;
     font-size: 25px;
     list-style-type: none;
     
 }
 
+/* give borders the equal space */
 .navi{
     padding:0px 122px;
-    border-right: 2px solid #000;
+    border-right: 1.5px solid grey;
+
 }
 
+/* delete the border next to the contact  */
+#navi{
+    border-right: 0;
+}
 
 main{
     position: absolute;
-    left: 11.5%;
-    width: 1020px;
+    left: 11.35%;
+    width: 1023.5px;
     background-color: #D4E9E7;
+    
 }
 
 main h2{
-    padding: 10px;
+    padding: 27px 0px 15px 15px;
     font-size: 30px;
  
 }
 
 main p{
     position: relative;
-    font-size: 16px;
-    top: 10px;
-    padding: 10px;
+    font-size: 14px; 
+    padding: 2px 15px;
 }
 
+/* put the text to the right and wrap it around the picture */
 main img{
-    padding: 10px 10px;
+    padding: 0px 15px;
     width: 200px;
     height: 200px;
     float:left;
@@ -67,49 +74,60 @@ main img{
 
 
 h4{
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 23px ;
 }
 
 .description {
-    padding:0px 20px;
+    padding:0px 15px;
+    font-size: 14px; 
+    margin: 0px 19px;
 }
+
+
 h5{
-    font-size: 25px;
-    padding: 10px;
+    font-size: 23px;
+    padding: 15px 15px;
 }
 
+
+/* put the border and make it a box to wrap all the contact information */
 .grid{
-    width: 965px;
+    
     border:1px solid #000;
-    margin: 0px 22px;
+    margin: 0px 16px;
+    padding: 20px 0px;
 }
 
+/* three white boxes underneath each contact */
 .inputbar{
     width: 930px;
     position: relative;
     left: 1%;
+    margin: 10px 7px;
+    height: 20px;   
+    border: 0.5px solid lightgrey;
 }
 
+/* create a larger white box in this section */
 #message{
     width: 930px;
     position: relative;
     left: 1%;
-    height: 150px;
+    height: 70px;
+    border: 0.5px solid gray;
 }
 
 .choice{
-    padding: 10px;
+    padding: 20px 16px;
 }
 
 .radiobar{
    margin: 2px;
-
-
 }
 
 button{ 
-    height: 30px;
+    height: 40px;
     width: 50px;
     background-color: #D4E9E7;
     border: 1px solid #000;
@@ -118,4 +136,4 @@ button{
 footer{
     position: relative;
     left: 83%;
-    padding: 20px;
+    padding: 20px;}
