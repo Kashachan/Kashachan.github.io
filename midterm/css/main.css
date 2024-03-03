@@ -11,13 +11,13 @@ body{
 header img{
     margin: -4px;
     position: relative;
-    left: 154px;
+    left: 210px;
     
 }
 
 header h1{
     position: absolute;
-    left: 490px;
+    left: 544px;
     color: white;
     font-size: 48px;
     top:195px;
@@ -46,7 +46,7 @@ nav ul{
 
 main{
     position: absolute;
-    left: 150px;
+    left: 206px;
     width: 1023.5px;
     background-color: #D4E9E7;
     
