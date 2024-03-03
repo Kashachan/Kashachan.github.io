@@ -58,18 +58,18 @@ main h2{
  
 }
 
-main p{
-    position: relative;
-    font-size: 14px; 
-    padding: 2px 15px;
-}
-
-/* put the text to the right and wrap it around the picture */
+/* make the text to the right and wrap it around the picture */
 main img{
     padding: 0px 15px;
     width: 200px;
     height: 200px;
-    float:left;
+    float: left;
+}
+
+main p{
+    position: relative;
+    font-size: 14px; 
+    padding: 2px 15px;
 }
 
 
@@ -134,6 +134,6 @@ button{
 }
 
 footer{
-    position: relative;
-    left: 83%;
-    padding: 20px;}
+    padding: 20px;
+    float: right;
+}
