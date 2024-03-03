@@ -17,7 +17,7 @@ header img{
 
 header h1{
     position: absolute;
-    left: 39%;
+    left: 525px;
     color: white;
     font-size: 48px;
     top:195px;
@@ -46,7 +46,7 @@ nav ul{
 
 main{
     position: absolute;
-    left: 11.35%;
+    left: 150px;
     width: 1023.5px;
     background-color: #D4E9E7;
     
