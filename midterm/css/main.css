@@ -23,7 +23,7 @@ header h1{
     top:195px;
 }
 
-/* put the navigation in a parallel line */
+/* put the navigation in a horizontal line */
 nav ul{
     display: flex;
     padding:5px;
